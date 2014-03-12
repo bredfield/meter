@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10440A2F6AE141838F85B40C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B198B084ACBC4D66BC56B017 /* libPods.a */; };
+		B46693D8BBA2441B9D119C48 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B198B084ACBC4D66BC56B017 /* libPods.a */; };
+		B504B35918D1235100F373D6 /* Heartrate.m in Sources */ = {isa = PBXBuildFile; fileRef = B504B35818D1235100F373D6 /* Heartrate.m */; };
 		B525CDE318B93D3A00910212 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B525CDE218B93D3A00910212 /* Foundation.framework */; };
 		B525CDE518B93D3A00910212 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B525CDE418B93D3A00910212 /* CoreGraphics.framework */; };
 		B525CDE718B93D3A00910212 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B525CDE618B93D3A00910212 /* UIKit.framework */; };
@@ -22,6 +25,17 @@
 		B525CE0418B93D3A00910212 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B525CDE818B93D3A00910212 /* CoreData.framework */; };
 		B525CE0C18B93D3A00910212 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B525CE0A18B93D3A00910212 /* InfoPlist.strings */; };
 		B525CE0E18B93D3A00910212 /* MeterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B525CE0D18B93D3A00910212 /* MeterTests.m */; };
+		B528FB7218CBDDA000F8D009 /* ArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = B528FB7118CBDDA000F8D009 /* ArrayDataSource.m */; };
+		B5331AA018BFC8C3009DA690 /* Heartrate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5331A9F18BFC8C3009DA690 /* Heartrate.m */; };
+		B563365C18C2838800D3BDBD /* HeartrateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B563365B18C2838800D3BDBD /* HeartrateTests.m */; };
+		B563366018C2878100D3BDBD /* BRBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = B563365F18C2878100D3BDBD /* BRBlurView.m */; };
+		B563366518C2981400D3BDBD /* HeartratesIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B563366418C2981400D3BDBD /* HeartratesIndexViewController.m */; };
+		B5688DA918C772ED00378EA6 /* HomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5688DA818C772ED00378EA6 /* HomeView.m */; };
+		B591D43C18BEB751002432D9 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B591D43A18BEB751002432D9 /* HomeViewController.m */; };
+		B5A1211F18C6B72B006B3706 /* LargeTextButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A1211E18C6B72B006B3706 /* LargeTextButton.m */; };
+		B5CDAA7B18C8CFAB007A8DC5 /* BRInputKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CDAA7A18C8CFAB007A8DC5 /* BRInputKeyboardView.m */; };
+		B5CDAA7F18C9086E007A8DC5 /* HeartRatesIndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CDAA7E18C9086E007A8DC5 /* HeartRatesIndexView.m */; };
+		B5CDAA8218C911B4007A8DC5 /* BRPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CDAA8118C911B4007A8DC5 /* BRPopupView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +49,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27CD9721B0F1443D86D258CC /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		B198B084ACBC4D66BC56B017 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B504B35718D1235100F373D6 /* Heartrate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Heartrate.h; sourceTree = "<group>"; };
+		B504B35818D1235100F373D6 /* Heartrate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Heartrate.m; sourceTree = "<group>"; };
 		B525CDDF18B93D3A00910212 /* Meter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B525CDE218B93D3A00910212 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B525CDE418B93D3A00910212 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +71,27 @@
 		B525CE0918B93D3A00910212 /* MeterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MeterTests-Info.plist"; sourceTree = "<group>"; };
 		B525CE0B18B93D3A00910212 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B525CE0D18B93D3A00910212 /* MeterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeterTests.m; sourceTree = "<group>"; };
+		B528FB7018CBDDA000F8D009 /* ArrayDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayDataSource.h; sourceTree = "<group>"; };
+		B528FB7118CBDDA000F8D009 /* ArrayDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayDataSource.m; sourceTree = "<group>"; };
+		B5331A9E18BFC8C3009DA690 /* Heartrate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Heartrate.h; sourceTree = "<group>"; };
+		B5331A9F18BFC8C3009DA690 /* Heartrate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Heartrate.m; sourceTree = "<group>"; };
+		B563365B18C2838800D3BDBD /* HeartrateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeartrateTests.m; sourceTree = "<group>"; };
+		B563365E18C2878100D3BDBD /* BRBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRBlurView.h; sourceTree = "<group>"; };
+		B563365F18C2878100D3BDBD /* BRBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRBlurView.m; sourceTree = "<group>"; };
+		B563366318C2981400D3BDBD /* HeartratesIndexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeartratesIndexViewController.h; sourceTree = "<group>"; };
+		B563366418C2981400D3BDBD /* HeartratesIndexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeartratesIndexViewController.m; sourceTree = "<group>"; };
+		B5688DA718C772ED00378EA6 /* HomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeView.h; sourceTree = "<group>"; };
+		B5688DA818C772ED00378EA6 /* HomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeView.m; sourceTree = "<group>"; };
+		B591D43918BEB751002432D9 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = ../HomeViewController.h; sourceTree = "<group>"; };
+		B591D43A18BEB751002432D9 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = ../HomeViewController.m; sourceTree = "<group>"; };
+		B5A1211D18C6B72B006B3706 /* LargeTextButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LargeTextButton.h; sourceTree = "<group>"; };
+		B5A1211E18C6B72B006B3706 /* LargeTextButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LargeTextButton.m; sourceTree = "<group>"; };
+		B5CDAA7918C8CFAB007A8DC5 /* BRInputKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRInputKeyboardView.h; sourceTree = "<group>"; };
+		B5CDAA7A18C8CFAB007A8DC5 /* BRInputKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRInputKeyboardView.m; sourceTree = "<group>"; };
+		B5CDAA7D18C9086E007A8DC5 /* HeartRatesIndexView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeartRatesIndexView.h; sourceTree = "<group>"; };
+		B5CDAA7E18C9086E007A8DC5 /* HeartRatesIndexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeartRatesIndexView.m; sourceTree = "<group>"; };
+		B5CDAA8018C911B4007A8DC5 /* BRPopupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRPopupView.h; sourceTree = "<group>"; };
+		B5CDAA8118C911B4007A8DC5 /* BRPopupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRPopupView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +103,7 @@
 				B525CDE918B93D3A00910212 /* CoreData.framework in Frameworks */,
 				B525CDE718B93D3A00910212 /* UIKit.framework in Frameworks */,
 				B525CDE318B93D3A00910212 /* Foundation.framework in Frameworks */,
+				10440A2F6AE141838F85B40C /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +115,7 @@
 				B525CE0418B93D3A00910212 /* CoreData.framework in Frameworks */,
 				B525CE0318B93D3A00910212 /* UIKit.framework in Frameworks */,
 				B525CE0218B93D3A00910212 /* Foundation.framework in Frameworks */,
+				B46693D8BBA2441B9D119C48 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +129,7 @@
 				B525CE0718B93D3A00910212 /* MeterTests */,
 				B525CDE118B93D3A00910212 /* Frameworks */,
 				B525CDE018B93D3A00910212 /* Products */,
+				27CD9721B0F1443D86D258CC /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +150,7 @@
 				B525CDE618B93D3A00910212 /* UIKit.framework */,
 				B525CDE818B93D3A00910212 /* CoreData.framework */,
 				B525CE0018B93D3A00910212 /* XCTest.framework */,
+				B198B084ACBC4D66BC56B017 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -117,8 +160,13 @@
 			children = (
 				B525CDF318B93D3A00910212 /* AppDelegate.h */,
 				B525CDF418B93D3A00910212 /* AppDelegate.m */,
+				B5688DA418C7715B00378EA6 /* Controllers */,
+				B563365D18C2873E00D3BDBD /* Views */,
+				B5688DA518C7716A00378EA6 /* Models */,
 				B525CDF918B93D3A00910212 /* Images.xcassets */,
 				B525CDF618B93D3A00910212 /* Meter.xcdatamodeld */,
+				B504B35718D1235100F373D6 /* Heartrate.h */,
+				B504B35818D1235100F373D6 /* Heartrate.m */,
 				B525CDEB18B93D3A00910212 /* Supporting Files */,
 			);
 			path = Meter;
@@ -139,6 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				B525CE0D18B93D3A00910212 /* MeterTests.m */,
+				B563365B18C2838800D3BDBD /* HeartrateTests.m */,
 				B525CE0818B93D3A00910212 /* Supporting Files */,
 			);
 			path = MeterTests;
@@ -153,6 +202,55 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B563365D18C2873E00D3BDBD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B5688DA618C772AD00378EA6 /* Reusable */,
+				B5688DA718C772ED00378EA6 /* HomeView.h */,
+				B5688DA818C772ED00378EA6 /* HomeView.m */,
+				B5CDAA7D18C9086E007A8DC5 /* HeartRatesIndexView.h */,
+				B5CDAA7E18C9086E007A8DC5 /* HeartRatesIndexView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B5688DA418C7715B00378EA6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B591D43918BEB751002432D9 /* HomeViewController.h */,
+				B591D43A18BEB751002432D9 /* HomeViewController.m */,
+				B563366318C2981400D3BDBD /* HeartratesIndexViewController.h */,
+				B563366418C2981400D3BDBD /* HeartratesIndexViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		B5688DA518C7716A00378EA6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B5331A9E18BFC8C3009DA690 /* Heartrate.h */,
+				B5331A9F18BFC8C3009DA690 /* Heartrate.m */,
+				B528FB7018CBDDA000F8D009 /* ArrayDataSource.h */,
+				B528FB7118CBDDA000F8D009 /* ArrayDataSource.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B5688DA618C772AD00378EA6 /* Reusable */ = {
+			isa = PBXGroup;
+			children = (
+				B563365E18C2878100D3BDBD /* BRBlurView.h */,
+				B563365F18C2878100D3BDBD /* BRBlurView.m */,
+				B5A1211D18C6B72B006B3706 /* LargeTextButton.h */,
+				B5A1211E18C6B72B006B3706 /* LargeTextButton.m */,
+				B5CDAA7918C8CFAB007A8DC5 /* BRInputKeyboardView.h */,
+				B5CDAA7A18C8CFAB007A8DC5 /* BRInputKeyboardView.m */,
+				B5CDAA8018C911B4007A8DC5 /* BRPopupView.h */,
+				B5CDAA8118C911B4007A8DC5 /* BRPopupView.m */,
+			);
+			name = Reusable;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -160,9 +258,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B525CE1118B93D3A00910212 /* Build configuration list for PBXNativeTarget "Meter" */;
 			buildPhases = (
+				C820CDF885AF4C7DA12487A7 /* Check Pods Manifest.lock */,
 				B525CDDB18B93D3A00910212 /* Sources */,
 				B525CDDC18B93D3A00910212 /* Frameworks */,
 				B525CDDD18B93D3A00910212 /* Resources */,
+				8F4BD03F78C94678AA3E6F7F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -177,9 +277,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B525CE1418B93D3A00910212 /* Build configuration list for PBXNativeTarget "MeterTests" */;
 			buildPhases = (
+				D79C2A57789F40D89AF9EB72 /* Check Pods Manifest.lock */,
 				B525CDFB18B93D3A00910212 /* Sources */,
 				B525CDFC18B93D3A00910212 /* Frameworks */,
 				B525CDFD18B93D3A00910212 /* Resources */,
+				5B8940D5C60C4CEC98BEA29D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,14 +345,88 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5B8940D5C60C4CEC98BEA29D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F4BD03F78C94678AA3E6F7F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C820CDF885AF4C7DA12487A7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D79C2A57789F40D89AF9EB72 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B525CDDB18B93D3A00910212 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5688DA918C772ED00378EA6 /* HomeView.m in Sources */,
+				B5A1211F18C6B72B006B3706 /* LargeTextButton.m in Sources */,
 				B525CDF518B93D3A00910212 /* AppDelegate.m in Sources */,
 				B525CDF818B93D3A00910212 /* Meter.xcdatamodeld in Sources */,
+				B528FB7218CBDDA000F8D009 /* ArrayDataSource.m in Sources */,
+				B5CDAA7F18C9086E007A8DC5 /* HeartRatesIndexView.m in Sources */,
+				B563366518C2981400D3BDBD /* HeartratesIndexViewController.m in Sources */,
+				B5331AA018BFC8C3009DA690 /* Heartrate.m in Sources */,
+				B504B35918D1235100F373D6 /* Heartrate.m in Sources */,
 				B525CDF118B93D3A00910212 /* main.m in Sources */,
+				B5CDAA7B18C8CFAB007A8DC5 /* BRInputKeyboardView.m in Sources */,
+				B591D43C18BEB751002432D9 /* HomeViewController.m in Sources */,
+				B563366018C2878100D3BDBD /* BRBlurView.m in Sources */,
+				B5CDAA8218C911B4007A8DC5 /* BRPopupView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +434,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B563365C18C2838800D3BDBD /* HeartrateTests.m in Sources */,
 				B525CE0E18B93D3A00910212 /* MeterTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,6 +543,7 @@
 		};
 		B525CE1218B93D3A00910212 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27CD9721B0F1443D86D258CC /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -379,6 +557,7 @@
 		};
 		B525CE1318B93D3A00910212 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27CD9721B0F1443D86D258CC /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -392,6 +571,7 @@
 		};
 		B525CE1518B93D3A00910212 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27CD9721B0F1443D86D258CC /* Pods.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Meter.app/Meter";
@@ -415,6 +595,7 @@
 		};
 		B525CE1618B93D3A00910212 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27CD9721B0F1443D86D258CC /* Pods.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Meter.app/Meter";
@@ -451,6 +632,7 @@
 				B525CE1318B93D3A00910212 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B525CE1418B93D3A00910212 /* Build configuration list for PBXNativeTarget "MeterTests" */ = {
 			isa = XCConfigurationList;
@@ -459,6 +641,7 @@
 				B525CE1618B93D3A00910212 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

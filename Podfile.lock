@@ -1,0 +1,15 @@
+PODS:
+  - MagicalRecord (2.2):
+    - MagicalRecord/Core
+  - MagicalRecord/Core (2.2)
+  - UIView+AutoLayout (1.2.0)
+
+DEPENDENCIES:
+  - MagicalRecord
+  - UIView+AutoLayout
+
+SPEC CHECKSUMS:
+  MagicalRecord: 95d49d74ef752cd52f6ad87bcb474817fc3978cf
+  UIView+AutoLayout: 1bcec87eaa77ffa088dc37e061d25fdead740089
+
+COCOAPODS: 0.29.0

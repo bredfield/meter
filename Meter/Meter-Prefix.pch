@@ -15,3 +15,18 @@
     #import <Foundation/Foundation.h>
     #import <CoreData/CoreData.h>
 #endif
+
+#import <UIView+AutoLayout/UIView+AutoLayout.h>
+
+#define MR_SHORTHAND
+#import "CoreData+MagicalRecord.h"
+
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+#define BRANDPRIMARY 0X004A60
+#define BRANDPRIMARYLIGHT 0X1EBFFD
+#define BRANDSECONDARY 0X6f8cee
+#define GRAYLIGHTEST 0XF7F7F7
+#define GRAYDARK 0X333333
+#define GRAY 0XCCCCCC
+
